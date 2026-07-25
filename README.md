@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 # Frontend
 cd frontend
-npm install
+pnpm install
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ uvicorn app.main:app --reload
 
 # Terminal 2 — Frontend (port 5173)
 cd frontend
-npm run dev
+pnpm dev
 ```
 
 Open `http://localhost:5173`.
