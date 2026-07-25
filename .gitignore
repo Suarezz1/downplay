@@ -1,0 +1,43 @@
+# =========================================================================
+# EasyDown - Global Git Ignore
+# =========================================================================
+
+# Python (Backend)
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.log
+
+# Backend Temporary Downloads (keep the folder but ignore files)
+/backend/downloads/*
+!/backend/downloads/.gitkeep
+
+# Node.js (Frontend)
+node_modules/
+/frontend/node_modules/
+/frontend/dist/
+/frontend/dist-ssr/
+/frontend/pnpm-lock.yaml
+/frontend/yarn.lock
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

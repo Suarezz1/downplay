@@ -1,0 +1,5 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+yt-dlp>=2025.6.9
+python-multipart==0.0.20
+curl-cffi>=0.7.0
